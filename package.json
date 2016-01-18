@@ -1,0 +1,37 @@
+{
+  "name": "excel-linkedin-parser",
+  "version": "1.0.0",
+  "description": "Parse Excel Linkedin file into JSON format",
+  "main": "index.js",
+  "scripts": {
+    "fast": "./node_modules/tape/bin/tape ./test/*test.js",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*test.js && istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
+    "jshint": "jshint -c .jshintrc --exclude-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akitten/excel-linkedin-parser.git"
+  },
+  "keywords": [
+    "Excel",
+    "Linkedin",
+    "parser",
+    "JSON"
+  ],
+  "author": "John Smith & Friends",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/akitten/excel-linkedin-parser/issues"
+  },
+  "homepage": "https://github.com/akitten/excel-linkedin-parser#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "jshint": "^2.9.1",
+    "pre-commit": "^1.1.2",
+    "tape": "^4.4.0"
+  },
+  "pre-commit": [
+    "jshint",
+    "test"
+  ]
+}
