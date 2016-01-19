@@ -11,24 +11,3 @@ module.exports = function(csv) {
   var jsonObj = arrOfJsonObjects(contacts);
   return jsonObj;
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
