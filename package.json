@@ -1,6 +1,6 @@
 {
   "name": "csv-linkedin-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse Excel Linkedin file into JSON format",
   "main": "index.js",
   "scripts": {

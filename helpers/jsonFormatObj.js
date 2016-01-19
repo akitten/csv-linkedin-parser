@@ -8,4 +8,4 @@ module.exports = function (arr) {
     email: arr[5]
   }
   return result;
-}
+};
