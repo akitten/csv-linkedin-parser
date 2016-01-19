@@ -1,7 +1,7 @@
 [![codecov.io](https://codecov.io/github/akitten/csv-linkedin-parser/coverage.svg?branch=master)](https://codecov.io/github/akitten/csv-linkedin-parser?branch=master)
 [![Build Status](https://travis-ci.org/akitten/csv-linkedin-parser.svg?branch=master)](https://travis-ci.org/akitten/csv-linkedin-parser)
 [![Dependency Status](https://david-dm.org/akitten/csv-linkedin-parser.svg)](https://david-dm.org/akitten/csv-linkedin-parser)
-[![devDependency Status](https://david-dm.org/akitten/csv-linkedin-parser/dev-status.svg)](https://david-dm.org/akitten/csv-linkedin-parser#info=devDependencies
+[![devDependency Status](https://david-dm.org/akitten/csv-linkedin-parser/dev-status.svg)](https://david-dm.org/akitten/csv-linkedin-parser#info=devDependencies)
 
 # csv-linkedIn-parser
 
